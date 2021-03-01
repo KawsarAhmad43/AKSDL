@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 0 5%;
+}
+.nav-bar i {
+  display: none;
+}
+.nav-bar i:hover{
+  color: pink;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 1.05rem;
+
+}
+.nav-bar a:hover{
+  color: pink;
+}
+.nav-section {
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+  width: 100%;
+}
+.nav-section ul {
+  
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  text-align: center;
+  background-color: navy;
+}
+.nav-section a {
+  font-size: 1.75rem;
+  color: white;
+  text-decoration: none;
+}
+.nav-section ul a:hover{
+  color: pink;
+}
+@media only screen and (max-width: 768px) {
+  .nav-bar i {
+    display: flex;
+  }
+  .nav-items {
+    display: none;
+  }
+}
