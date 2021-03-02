@@ -90,9 +90,9 @@
 /* About Section */
 .about{
     width: 90%;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
-    margin: 0 auto;
+    margin: 2% auto;
     
 }
 
@@ -112,10 +112,10 @@
 .slide-content .slide-boxb{
     flex: 2;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-left: 4px;
     height: 50vh;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 /*  */
@@ -131,10 +131,10 @@
 .slide-content .slide-boxd{
     flex: 2;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-left: 4px;
     height: 50vh;
-    font-size: 15px;
+    font-size: 20px;
   
 }
 /*  */
@@ -149,11 +149,30 @@
 .slide-content .slide-boxf{
     flex: 2;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-left: 4px;
     height: 50vh;
-    font-size: 15px;
+    font-size: 20px;
 }
+
+
+@media (min-width: 350px) {
+    div.box {
+      height: 60%;
+    }
+    div.content{
+        font-size: 3vw;
+        margin-top: 5%;
+    }
+
+   .slider-text{
+
+       font-size: 16px;
+       margin-top: 5%;
+   }
+
+  }
+
 /* end of About Section */
 /* project section starts here */
 .box{
@@ -204,7 +223,7 @@
 }
 
 
-.service .box{
+.service .box-container{
     width: 100%;
     height: 80vh;
     background-image: linear-gradient(to right top, #051937, #4c275b, #982c61, #d34549, #eb7f12);
