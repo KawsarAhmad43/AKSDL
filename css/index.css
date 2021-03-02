@@ -111,7 +111,12 @@
 
 .slide-content .slide-boxb{
     flex: 2;
+    height: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 2%;
     padding-left: 4px;
     height: 50vh;
