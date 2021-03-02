@@ -6,7 +6,7 @@
 
 /* here Abir's Navbar will be added */
 .nav{
-    height: 40px;
+    height: 50px;
     width: 100%;
     color:black;
     background-color: gray;
@@ -40,7 +40,8 @@
     
 }
 .header-paragragh span{
-    color: orangered;font-weight: bold;
+    color: orangered;
+    font-weight: bold;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
 }
 .header-paragragh span::before{
@@ -67,8 +68,9 @@
      color: white;
      text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
      text-decoration: none;
-     height: 50px;
-     width: 120px;
+     /* height: 50px;
+     width: 120px; */
+     padding: 1% 5%;
      border: 2px solid white; 
      font-size: 18px;
      border-radius: 10px;
@@ -80,7 +82,7 @@
     background:orangered;
     box-shadow: 5px 3px 6px 2px black;
     border: none;
-    width: 200px;
+
     text-decoration: none;
     color: whitesmoke;
     
