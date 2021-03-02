@@ -32,7 +32,7 @@ footer{
     color:#fff;
     background-color: #011c39;
 }
-.footer >*{
+.footer > * {
     flex: 1 100%;
 }
 .footer-left{
